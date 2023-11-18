@@ -1,0 +1,56 @@
+.btn {
+	color: #ffffff;
+	font-weight: 500;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+	// box-shadow: 0 0.8rem 0.8rem -0.4rem rgba(73, 93, 207, 0.2);
+	backface-visibility: hidden;
+	letter-spacing: 0.5px;
+	-webkit-backface-visibility: hidden;
+
+	&-login {
+		letter-spacing: 1px;
+		background-color: hsl(0, 94%, 66%);
+		padding: 1rem 3rem;
+		transition: all 0.8s ease-in-out;
+
+		&:hover {
+			background-color: transparent;
+			color: $color-soft-red;
+			border: 2px solid $color-soft-red;
+		}
+	}
+
+	&-chrome {
+		font-size: 1.7rem;
+		background-color: $color-soft-blue;
+		margin-right: 1.5rem;
+		padding: 1.5rem 2.5rem;
+		display: inline-block;
+		transition: all 0.5s ease;
+
+		&:hover {
+			color: $color-soft-blue;
+			background-color: transparent;
+			border: 2px solid $color-soft-blue;
+			font-weight: 700;
+		}
+	}
+
+	&-firefox {
+		display: inline-block;
+		font-size: 1.7rem;
+		background-color: $color-grayish-blue;
+		margin-right: 1rem;
+		padding: 1.5rem 2.5rem;
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			border: 2px solid $color-grayish-blue;
+			color: $color-grayish-blue;
+			background-color: transparent;
+			font-weight: 700;
+		}
+	}
+}

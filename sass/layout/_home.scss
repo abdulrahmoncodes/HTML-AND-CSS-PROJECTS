@@ -1,0 +1,59 @@
+.features {
+	margin: 5rem auto;
+	width: 45%;
+
+	&-section {
+		text-align: center;
+	}
+
+	&__description {
+		font-size: $default-font;
+		line-height: 1.7;
+		color: $color-grayish-blue;
+	}
+
+	&-bookmark {
+		padding: 3rem;
+		border-bottom: 1px solid $color-grayish-blue;
+		width: 65%;
+		margin: 0 auto;
+		text-align: center;
+		text-transform: capitalize;
+
+		span {
+			margin-right: 8rem;
+			font-size: $default-font;
+			transition: all 0.5s;
+			color: $color-grayish-blue;
+			cursor: pointer;
+			position: relative;
+			width: 100%;
+
+			&:hover {
+				margin-bottom: 2rem;
+				transform: translateX(2px);
+				color: $color-soft-red;
+			}
+
+			&::after {
+				content: "";
+				width: 0;
+				position: absolute;
+				bottom: -3.2rem;
+				left: -35%;
+				height: 5px;
+				background-color: $color-soft-red;
+			}
+
+			&:active::after {
+				width: 20rem;
+				color: $color-grayish-blue;
+			}
+		}
+	}
+}
+
+h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}

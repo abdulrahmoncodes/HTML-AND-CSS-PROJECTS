@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
@@ -89,3 +90,12 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Bookmark Landing
+
+Challenge #3 by FrontendMentor.io
+
+watch the live project 👉 https://abdulrahmoncodes.github.io/bookmark-landing/
+
+![Abdulrahmon Soliu](https://repository-images.githubusercontent.com/264555856/956f4f80-97bb-11ea-92b3-a04f2395ab26)
+>>>>>>> a732cbe (started bookmark page design)
