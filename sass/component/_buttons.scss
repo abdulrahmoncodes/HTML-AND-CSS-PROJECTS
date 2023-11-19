@@ -5,9 +5,7 @@
 	border-radius: 5px;
 	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
 	// box-shadow: 0 0.8rem 0.8rem -0.4rem rgba(73, 93, 207, 0.2);
-	backface-visibility: hidden;
 	letter-spacing: 0.5px;
-	-webkit-backface-visibility: hidden;
 
 	&-login {
 		letter-spacing: 1px;
@@ -52,5 +50,11 @@
 			background-color: transparent;
 			font-weight: 700;
 		}
+	}
+
+	&-info {
+		background-color: $color-soft-blue;
+		padding: 1.5rem 2.5rem;
+		font-size: $default-font;
 	}
 }
