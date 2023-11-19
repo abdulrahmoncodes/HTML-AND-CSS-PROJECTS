@@ -16,14 +16,25 @@
 }
 
 .bg-blue {
-	background-color: $color-soft-blue;
+	position: absolute;
 	width: 80rem;
 	height: 34rem;
+	background-color: $color-soft-blue;
 	border-radius: 40rem;
 	z-index: -1;
-	position: absolute;
 	top: 30%;
 	left: 30%;
+
+	&--1 {
+		position: absolute;
+		width: 80rem;
+		height: 34rem;
+		border-radius: 40rem;
+		z-index: -1;
+		bottom: -88rem;
+		left: -17%;
+		background-color: $color-soft-blue;
+	}
 }
 
 .hero {

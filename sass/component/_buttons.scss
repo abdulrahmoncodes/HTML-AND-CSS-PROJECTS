@@ -22,10 +22,9 @@
 
 	&-chrome {
 		font-size: 1.7rem;
-		background-color: $color-soft-blue;
 		margin-right: 1.5rem;
 		padding: 1.5rem 2.5rem;
-		display: inline-block;
+		background-color: $color-soft-blue;
 		transition: all 0.5s ease;
 
 		&:hover {
@@ -34,21 +33,43 @@
 			border: 2px solid $color-soft-blue;
 			font-weight: 700;
 		}
+
+		&__1 {
+			padding: 1.5rem 4.5rem;
+			background-color: $color-soft-blue;
+			font-size: 1.5rem;
+			text-transform: capitalize;
+			transition: all 0.3s ease-in;
+
+			&:hover {
+				border: 2px solid $color-soft-blue;
+				color: $color-soft-blue;
+				background-color: transparent;
+				font-weight: 700;
+			}
+		}
 	}
 
 	&-firefox {
-		display: inline-block;
 		font-size: 1.7rem;
 		background-color: $color-grayish-blue;
 		margin-right: 1rem;
 		padding: 1.5rem 2.5rem;
 		transition: all 0.3s ease-in-out;
 
-		&:hover {
-			border: 2px solid $color-grayish-blue;
-			color: $color-grayish-blue;
-			background-color: transparent;
-			font-weight: 700;
+		&__1 {
+			padding: 1.5rem 4.5rem;
+			background-color: $color-soft-blue;
+			font-size: 1.5rem;
+			text-transform: capitalize;
+			transition: all 0.3s ease-in;
+
+			&:hover {
+				border: 2px solid $color-soft-blue;
+				color: $color-soft-blue;
+				background-color: transparent;
+				font-weight: 700;
+			}
 		}
 	}
 
@@ -56,5 +77,27 @@
 		background-color: $color-soft-blue;
 		padding: 1.5rem 2.5rem;
 		font-size: $default-font;
+		transition: all 0.1s ease;
+
+		&:hover {
+			color: $color-soft-blue;
+			background-color: transparent;
+			border: 2px solid $color-soft-blue;
+		}
+	}
+
+	&-opera {
+		padding: 1.5rem 4.5rem;
+		background-color: $color-soft-blue;
+		font-size: 1.5rem;
+		text-transform: capitalize;
+		transition: all 0.3s ease-in;
+
+		&:hover {
+			border: 2px solid $color-soft-blue;
+			color: $color-soft-blue;
+			background-color: transparent;
+			font-weight: 700;
+		}
 	}
 }

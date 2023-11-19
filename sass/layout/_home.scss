@@ -1,3 +1,4 @@
+//features-section
 .features {
 	margin: 5rem auto;
 	width: 45%;
@@ -59,15 +60,20 @@ h2 {
 	color: $color-dark-blue;
 }
 
+//Bookmark illustration
+
 .illustration-container {
 	width: 100%;
+	margin-bottom: 5rem;
 
 	&__hero {
 		width: 100%;
+		position: relative;
 	}
 }
 
 .tab-1 {
+	margin-top: -5%;
 	float: left;
 	margin-right: 15rem;
 }
@@ -77,12 +83,127 @@ h2 {
 	text-align: left;
 
 	&__1 {
-		color: $color-grayish-blue;
+		letter-spacing: 1px;
+		color: $color-dark-blue;
+		font-size: 3.5rem;
 	}
 
 	&__description {
 		font-size: $default-font;
-		margin-bottom: 5rem;
+		margin-bottom: 5.5rem;
+		line-height: 1.5;
 		color: $color-grayish-blue;
+	}
+}
+
+//extension section
+.extension {
+	padding: 20rem 2rem;
+	text-align: center;
+
+	&__text {
+		margin-bottom: 3rem;
+	}
+	&__description {
+		text-align: center;
+		font-size: $default-font;
+		margin: 0 auto;
+		line-height: 1.5;
+		color: $color-grayish-blue;
+		width: 50ch;
+	}
+}
+
+.browser {
+	padding: 10rem 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	position: relative;
+
+	//chrome
+	&-chrome {
+		position: absolute;
+		top: -10%;
+		left: 12%;
+		padding: 7rem 2rem 4rem;
+		border-radius: 2rem;
+		box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.13);
+
+		&__img {
+			width: 12rem;
+			margin-bottom: 4rem;
+		}
+
+		&__text {
+			font-size: 2.2rem;
+			letter-spacing: 1px;
+			color: $color-dark-blue;
+			margin-bottom: 1.5rem;
+		}
+
+		p {
+			color: $color-grayish-blue;
+			margin-bottom: 10rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	//firefox
+	&-firefox {
+		position: absolute;
+		top: 15%;
+		left: 41%;
+		padding: 7rem 2rem 4rem;
+		border-radius: 2rem;
+		box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.13);
+
+		&__img {
+			width: 12rem;
+			margin-bottom: 4rem;
+		}
+
+		&__text {
+			color: $color-dark-blue;
+			font-size: 2.2rem;
+			margin-bottom: 1.5rem;
+			letter-spacing: 1px;
+		}
+
+		p {
+			color: $color-grayish-blue;
+			margin-bottom: 10rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	//operamini
+	&-opera {
+		position: absolute;
+		top: 40%;
+		left: 70%;
+		padding: 7rem 2rem 4rem;
+		border-radius: 2rem;
+		box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.13);
+		transition: all 0.5s ease-in;
+
+		&__img {
+			width: 12rem;
+			margin-bottom: 4rem;
+		}
+
+		&__text {
+			font-size: 2.2rem;
+			color: $color-dark-blue;
+			margin-bottom: 1.5rem;
+			letter-spacing: 1px;
+		}
+
+		p {
+			color: $color-grayish-blue;
+			margin-bottom: 10rem;
+			font-size: 1.5rem;
+		}
 	}
 }
